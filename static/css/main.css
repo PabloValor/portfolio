@@ -1,0 +1,22 @@
+body {
+	background: #EDEDED;
+	font-size: 16px;
+}
+
+header {
+
+}
+
+section {
+
+}
+
+section h2, footer h2 {
+	color: tomato;
+	font-weight: 700;
+	text-align: left;
+}
+
+footer {
+
+}
