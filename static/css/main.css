@@ -1,4 +1,7 @@
 /* Utilities */
+.u-left-right-margin {
+	margin: 0 1.3em;
+}
 .u-title {
 	border-bottom: 2px solid #00CCFF;
 	color: #00CCFF;
@@ -9,7 +12,7 @@
 }
 .u-container {
 	margin: 0 auto;
-	width: 800px;
+	max-width: 800px;
 }
 /* End Utilities */
 
@@ -48,7 +51,17 @@ header {
 		border-radius: 50%;
 		border: 5px solid white;
 		height: 200px;
-		width: 200px;
+		max-width: 200px;
+		-webkit-transition: 1s;
+		-moz-transition: 1s;
+		-o-transition: 1s;
+		-msie-transition: 1s;
+	}
+	header img:hover {
+		-webkit-transform: rotateY(360deg);
+		-moz-transform: rotateY(360deg);
+		-o-transform: rotateY(360deg);
+		-msie-transform: rotateY(360deg);
 	}
 
 	nav {
@@ -118,7 +131,7 @@ header {
 	}
 	#works img {
 		height: 245px;
-		width: 245px;
+		max-width: 245px;
 	}
 	#works figure {
 		margin: 0;
@@ -140,7 +153,7 @@ footer {
 	}
 	footer .left-content-footer {
 		display: inline-block;
-		width: 32em;
+		max-width: 32em;
 		text-align: center;
 		vertical-align: top;
 	}
