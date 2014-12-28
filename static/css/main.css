@@ -1,23 +1,66 @@
 body {
-	background: #F7F7F7;
-	font-family: 'Open Sans', sans-serif;
+	background: #EEE;
 	font-size: 16px;
 }
 
 header {
-	background: #E2E2E2;
-	border-bottom: 5px solid silver;
+	background-image: url('../images/cover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	margin-top: 3.75em;
+	padding: 1.2em 0;
 }
-
-section {
-
-}
-	section h2, footer h2 {
-		color: tomato;
-		font-weight: 700;
-		text-align: left;
+	header a.link, header p.name {
+		color: white;
+	}
+	header a.link {
+		font-size: 2.2em;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	header p.name {
+		font-size: 1.5em;
+		font-weight: 300;
+		margin: 0;
+	}
+	header figure {
+		margin: 0;
+	}
+	header img {
+		border-radius: 50%;
+		border: 5px solid white;
+		height: 200px;
+		width: 200px;
 	}
 
-footer {
+	nav {
+		background: #1E1E1E;
+		height: 3.75em;
+		position: fixed;
+		text-align: center;
+		left: 0;
+		top: 0;
+		right: 0;
+	}
+		nav ul{ 
+			padding: 0;
+			margin: 0;
+		}
+		nav ul li {
+			display: inline-block;
+		}
 
-}
+		nav a {
+			color: #00DBFF;
+			text-decoration: none;
+			line-height: 3.75em;
+			margin-left: 1.5em;
+			-webkit-transition: .4s ease;
+		}
+		nav a:hover {
+			color: #EEEEEE;
+			text-decoration: underline;
+		}
