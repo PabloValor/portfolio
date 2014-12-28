@@ -131,9 +131,12 @@ footer {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
 }
 	footer h3 {
 		color: white;
+		margin-top: 0;
 	}
 	footer .left-content-footer {
 		display: inline-block;
@@ -145,7 +148,6 @@ footer {
 	footer form {
 		text-align: center;
 		display: inline-block;
-		margin-top: 1em;
 	}
 
 	footer form input, footer form textarea {
