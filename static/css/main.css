@@ -1,21 +1,22 @@
 body {
-	background: #EDEDED;
+	background: #F7F7F7;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
 
 header {
-
+	background: #E2E2E2;
+	border-bottom: 5px solid silver;
 }
 
 section {
 
 }
-
-section h2, footer h2 {
-	color: tomato;
-	font-weight: 700;
-	text-align: left;
-}
+	section h2, footer h2 {
+		color: tomato;
+		font-weight: 700;
+		text-align: left;
+	}
 
 footer {
 
