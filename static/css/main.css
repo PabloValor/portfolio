@@ -10,9 +10,17 @@
 	text-align: center;
 	padding-bottom: .5em;
 }
+.u-main-container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .u-container {
 	margin: 0 auto;
 	max-width: 800px;
+}
+.u-paragraph-container {
+	margin-left: 5%;
+	margin-right: 5%;
 }
 /* End Utilities */
 
@@ -138,6 +146,7 @@ header {
 }
 	#profile .social {
 		text-align: center;
+		margin: 20px;
 	}
 
 	#profile .social a {
@@ -234,5 +243,4 @@ footer {
 		display: block;
 		margin: 0 15px 6px;
 	}
-
 }
