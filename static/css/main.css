@@ -180,3 +180,20 @@ footer {
 		padding: .5em 1em;
 	}
 
+/* Media Queries */
+
+/* Smartphone */
+@media screen and (max-width: 378px) {
+	.u-left-right-margin {
+		margin: 0 3px;
+	}
+	#works article {
+		margin-left: 0;
+	}
+
+	#profile .social a {
+		display: block;
+		margin: 0 15px 6px;
+	}
+
+}
