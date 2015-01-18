@@ -23,7 +23,9 @@ $(function() {
 
 	//callback for width viewport changes
 	function widthChange(mq) {
-		if(!mq.matches) {
+		if(mq.matches) {
+			$nav.css('left','-200px');
+		} else {
 			$nav.css('left','0');
 		}
 	}

@@ -277,6 +277,10 @@ footer {
 	    background: #1e1e1e;
 	    border-radius: 50%;
 	    padding: 10px;
+	    -webkit-transition: 1.5s;
+		-moz-transition: 1.5s;
+		-o-transition: 1.5s;
+		-msie-transition: 1.5s;
 	    left: 163px;
 	    top: 75px;
 	    z-index: 2;
