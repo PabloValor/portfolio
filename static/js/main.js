@@ -14,11 +14,11 @@ $(function() {
 
 	function showMenu() {
 		$nav.css('left', '0');
-		$arrow.css('transform','rotate(180deg)');
+		$arrow.css('transform','rotateY(180deg)');
 	}
 	function hideMenu() {
 		$nav.css('left', '-200px');
-		$arrow.css('transform','rotate(0)');
+		$arrow.css('transform','rotateY(0)');
 	}
 
 	//callback for width viewport changes
